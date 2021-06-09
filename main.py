@@ -22,6 +22,7 @@
     GPIO.output(led4, GPIO.LOW)
     GPIO.setup(led5, GPIO.OUT)
     GPIO.output(led5, GPIO.LOW)
+    
     def action(msg):
          chat_id=msg['chat']['id']
          command=msg['text']
